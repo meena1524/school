@@ -39,10 +39,10 @@ card.forEach(card => {
 });
 
 let images = [
-  "/images/2024-04-28.webp",
-  "/images/WhatsApp Image 2026-02-08 at 1.09.53 PM.jpeg",
+  "/asset/images/2024-04-28.webp",
+  "/asset/images/WhatsApp Image 2026-02-08 at 1.09.53 PM.jpeg",
   "https://files.yappe.in/place/full/m-m-bright-future-sr-sec-school-gorakhpur-bhuna-fatehabad-haryana-hbse-affiliated-best-school-in-gorakhpur-8062417.webp",
-   "/images/2024-04-28.webp",
+   "/asset/images/2024-04-28.webp",
 ];
 
 let index = 0;

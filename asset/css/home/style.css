@@ -12,6 +12,10 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 30px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
 }
 
 .logo-section {
@@ -56,9 +60,9 @@
 }
 
 .schoolbuild img {
-  width: 100%;
-  height: 60vh;  
-  object-fit: cover;  
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
 }
 
 
@@ -230,10 +234,10 @@
 .card-body-2 {
     /* padding: 15px;
     background: #f5f8ff; */
-       padding: 15px;
+    padding: 15px;
     background: #f5f8ff;
-    height: 250px;       
-    overflow: hidden;      
+    height: 250px;
+    overflow: hidden;
     position: relative;
 }
 
@@ -277,9 +281,9 @@
 }
 
 .slider {
-  width: 100%;
-  overflow: hidden;
-  position: relative;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
 }
 
 .cards-3 {
@@ -287,7 +291,7 @@
     justify-content: center;
     gap: 30px;
     /* flex-wrap: wrap; */
-  
+
 }
 
 .card-3 {
@@ -650,7 +654,6 @@
     color: orange;
 }
 
-/* Social Icons */
 .social {
     margin-top: 40px;
 }
@@ -671,7 +674,6 @@
     border-color: red;
 }
 
-/* Responsive */
 @media(max-width:900px) {
     .footer-container {
         grid-template-columns: 1fr;

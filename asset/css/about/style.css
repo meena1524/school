@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+
+}
+
+.navbar {
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo-section img {
+    width: 60px;
+    margin-right: 10px;
+}
+
+.school-text h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.school-text p {
+    font-size: 12px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 14px;
+    padding: 5px 8px;
+}
+
+.menu a:hover {
+    background-color: #ffffff;
+    color: #0b6b1b;
+    border-radius: 4px;
+}
+
+.banner {
+    width: 100%;
+    height: 290px;
+    position: relative;
+    padding-top: 130px;
+    padding-bottom: 70px;
+    background-size: cover !important;
+     background: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)),
+    url("/school website/asset/images/2024-04-28.webp") no-repeat center top ;
+    
+}
+
+
+.about-box {
+    position: absolute;
+    top: 205px;
+    left: 60px;
+    background: #f3f7ef;
+    padding: 15px 35px;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-box h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: bold;
+    color: #222;
+}
+
+.about-box h1 span {
+    color: red;
+}
+
+.breadcrumb {
+    width: 100%;
+    background: #f5f5f5;
+    padding: 15px 60px;
+    font-size: 16px;
+}
+
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+}
+
+
+.breadcrumb span {
+    margin: 0 10px;
+    color: #777;
+}
+
+.breadcrumb .active {
+    color: #ff4d4d;
+    font-weight: 600;
+}
+
+.about-section {
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    gap: 40px;
+}
+
+/* .about-image{
+    height: 450px;
+    width: 850px;
+} */
+
+.about-image img {
+    width: 95%;
+    border-radius: 5px;
+}
+
+
+.about-content h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.about-content p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #333;
+    text-align: justify;
+}
+
+
+@media (max-width:1000px) {
+    .about-section {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* @media (max-width:1030px) {
+    .about-image{
+       width: 2400px;
+    }
+} */
+
+.education{
+    background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+    url("/school website/asset/images/2024-04-28.webp") no-repeat center center/cover;
+    padding:60px 40px;
+    color:white;
+        background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.education h1{
+    text-align:center;
+    font-size:40px;
+    margin-bottom:40px;
+}
+
+.educat-icon{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.edu-container{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:30px;
+}
+
+.edu-box{
+    text-align:center;
+    padding:20px;
+}
+
+.edu-box i{
+    font-size:40px;
+    color:#ff5a5a;
+    margin-bottom:10px;
+}
+
+.edu-box h3{
+   font-size: 22px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.edu-box p{
+    font-size:15px;
+    line-height:1.6;
+}
+
+/* Responsive */
+@media(max-width:900px){
+    .edu-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media(max-width:600px){
+    .edu-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+.footer {
+    background: #000;
+    padding: 50px 80px;
+    height: 550px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 1fr;
+    gap: 40px;
+}
+
+.logo h2 {
+    margin-bottom: 20px;
+    color: white;
+    font-size: 15px;
+}
+
+.map iframe {
+    width: 100%;
+    height: 250px;
+    border: 0;
+}
+
+.footer h3 {
+    margin-bottom: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+.underline {
+    width: 60px;
+    height: 3px;
+    background: orange;
+    margin-bottom: 20px;
+}
+
+.address-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    color: #ccc;
+}
+
+.address-item i {
+    margin-right: 12px;
+    font-size: 18px;
+}
+
+.links-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.links-2 a {
+    color: #ccc;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.links-2 a:hover {
+    color: orange;
+}
+
+
+.social {
+    margin-top: 40px;
+}
+
+.social a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #555;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.social a:hover {
+    background: red;
+    border-color: red;
+}
+
+@media(max-width:900px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.copyright-bar {
+    background: #2b2b2b;
+    color: #aaa;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
