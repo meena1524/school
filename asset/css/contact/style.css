@@ -317,6 +317,12 @@ textarea {
     border-color: red;
 }
 
+.map-big{
+    width: 100%;
+    height: 400px;
+    background-color: red;
+}
+
 @media(max-width:900px) {
     .footer-container {
         grid-template-columns: 1fr;
